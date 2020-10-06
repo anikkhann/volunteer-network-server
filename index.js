@@ -59,6 +59,14 @@ client.connect(err => {
    })
  })
 
+//  //admin get data
+//  app.get('getAdminRegisterData', (req,res) =>{
+//    dataCollectionTwo.find({})
+//    .toArray((err, documents) =>{
+//      res.send(documents);
+//    })
+//  })
+
  //delete data from database
  app.delete('/deleteActivity/:id', (req, res)=>{
    console.log(req.params.id);
